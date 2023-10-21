@@ -1,0 +1,43 @@
+{"intents":
+        [
+                {"tag": "greetings",
+                        "patterns": ["hello","hi","good day","greetings","what's up?","how is it going"],
+                        "responses": ["Hello!","Hey!","What can i do for you?","How can i help you?"],
+
+                },
+                {"tag": "goodbye",
+                        "patterns": ["cya","see you later","goodbye","Iam leaving","have a good day","cao","see ya"],
+                        "responses": ["Sad to see you go:(","Talk to you later!","Goodbye!"],
+
+                },
+                {"tag": "age",
+                        "patterns": ["how old are you","how old is Hala?","what is your age","age?","how old"],
+                        "responses": ["My owner Hala is 20 years old,20 years old!"],
+
+
+                },
+
+                {"tag": "name",
+                        "patterns": ["what is your name?","what should i call you?","whats your name?","who are you?","can you tell me your name?"],
+                        "responses": ["You can call me ZI,I'm ZI,Iam ZI the assistant of Hala!"],
+
+                },
+                 {"tag": "hours",
+                        "patterns": ["when are you guys open","what are your hours?","hours of operation","who are you?"],
+                        "responses": ["24/7"],
+
+                },
+                 {"tag": "creator",
+                        "patterns": ["who made you?","what are you?","who is your creator?","tell me more about your creator"],
+                        "responses": ["Hala created me!, a smart student designed me to strength her knowledge and skills in machine learning"],
+
+                },
+                {"tag": "actions",
+                        "patterns": ["can you eat?","what can you eat?","eat something!","can you sleep?","can you drink?"],
+                        "responses": ["I don't have a physical form or biological needs like sleeping, eating, or drinking,Iam an artificial intelligence program"],
+
+                }
+        ]
+
+
+}
